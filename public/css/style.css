@@ -1050,3 +1050,8 @@ h5,
 .nosave {
   pointer-events: none;
 }
+
+.emptybox {
+  height: 3000px;
+  border: box;
+}
