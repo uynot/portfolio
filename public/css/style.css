@@ -1055,3 +1055,16 @@ h5,
   height: 3000px;
   border: box;
 }
+
+.thumbnail {
+  margin: 0 auto;
+  overflow: hidden;
+  max-width: 100%;
+  height: auto;
+}
+
+.icon-on-image {
+  background-position: -160px -112px;
+  width: 35px;
+  height: 35px;
+}
