@@ -83,12 +83,25 @@
               </div>
 
               <figure class="mb-5" data-aos="fade-up">
-                <img
-                  src="images/minibus_preview.jpg"
-                  data-src="images/minibus.jpg"
-                  alt="minibus-bg"
-                  class="img-fluid"
-                />
+                <picture class="lazy">
+                  <source
+                    srcset="images/minibus.jpg"
+                    media="(min-width: 1200px)"
+                  />
+                  <source
+                    srcset="images/minibus.jpg"
+                    media="(min-width: 700px)"
+                  />
+                  <source
+                    srcset="images/minibus.jpg"
+                    media="(min-width: 300px)"
+                  />
+                  <img
+                    src="images/minibus.jpg"
+                    alt="minibus-bg"
+                    class="img-fluid"
+                  />
+                </picture>
               </figure>
             </div>
           </div>
